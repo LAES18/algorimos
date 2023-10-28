@@ -1,0 +1,41 @@
+inicio
+
+1. Conectar a la base de datos (utiliza las credenciales de conexión adecuadas).
+
+2. Crear una tabla en la base de datos para almacenar los registros. Puedes diseñar la tabla con los siguientes campos:
+   - ID (clave primaria autoincremental)
+   - Nombre de la persona
+   - Hora de entrada
+   - Hora de salida (puede ser NULL inicialmente)
+
+3. Mientras el sistema esté en funcionamiento:
+    a. Mostrar un menú con opciones:
+       1. Registrar entrada de persona
+       2. Registrar salida de persona
+       3. Mostrar registros
+       4. Salir del sistema
+
+    b. Leer la opción seleccionada por el usuario.
+
+    c. Si la opción es 'Registrar entrada de persona':
+        i. Pedir al usuario que ingrese el nombre de la persona.
+        ii. Registrar la hora de entrada actual.
+        iii. Insertar un nuevo registro en la tabla de la base de datos con el nombre y la hora de entrada.
+
+    d. Si la opción es 'Registrar salida de persona':
+        i. Pedir al usuario que ingrese el nombre de la persona.
+        ii. Buscar el registro correspondiente en la tabla por nombre.
+        iii. Registrar la hora de salida actual en ese registro.
+
+    e. Si la opción es 'Mostrar registros':
+        i. Realizar una consulta SQL para recuperar todos los registros de la tabla.
+        ii. Mostrar la lista de registros con nombres, horas de entrada y horas de salida si están disponibles.
+
+    f. Si la opción es 'Salir del sistema':
+        i. Cerrar la conexión a la base de datos.
+        ii. Finalizar el programa.
+
+Fin del algoritmo.
+
+
+

@@ -1,0 +1,34 @@
+Inicio
+
+1. Conectar a la base de datos (utiliza las credenciales de conexión adecuadas).
+
+2. Mostrar un menú con opciones de filtrado:
+   a. Filtrar por nombre
+   b. Filtrar por hora de entrada
+   c. Filtrar por hora de salida
+   d. Salir del sistema de filtrado
+
+3. Leer la opción seleccionada por el usuario.
+
+4. Si la opción es 'Filtrar por nombre':
+    a. Pedir al usuario que ingrese el nombre que desea buscar.
+    b. Realizar una consulta SQL para seleccionar los registros de la base de datos que coincidan con el nombre especificado.
+    c. Mostrar los registros seleccionados.
+
+5. Si la opción es 'Filtrar por hora de entrada':
+    a. Pedir al usuario que ingrese una hora de entrada específica o un rango de horas (por ejemplo, "hora de entrada mínima" y "hora de entrada máxima").
+    b. Realizar una consulta SQL para seleccionar los registros de la base de datos cuyas horas de entrada estén dentro del rango especificado.
+    c. Mostrar los registros seleccionados.
+
+6. Si la opción es 'Filtrar por hora de salida':
+    a. Pedir al usuario que ingrese una hora de salida específica o un rango de horas (por ejemplo, "hora de salida mínima" y "hora de salida máxima").
+    b. Realizar una consulta SQL para seleccionar los registros de la base de datos cuyas horas de salida estén dentro del rango especificado.
+    c. Mostrar los registros seleccionados.
+
+7. Si la opción es 'Salir del sistema de filtrado':
+    a. Cerrar la conexión a la base de datos.
+    b. Finalizar el programa de filtrado.
+
+Fin del algoritmo.
+
+
